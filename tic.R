@@ -4,7 +4,7 @@ get_stage("before_install") %>%
 get_stage("install") %>%
   add_step(step_run_code(remotes::install_deps(dependencies = TRUE)))
 
-get_stage("script") %>%
+get_stage("deploy") %>%
   add_step(step_run_code(rmarkdown::render_site()))
 
 if (Sys.getenv("id_rsa") != "") {
@@ -19,6 +19,5 @@ if (Sys.getenv("id_rsa") != "") {
     add_step(step_test_ssh())
 
   get_stage("deploy") %>%
-    add_step(step_build_pkgdown()) %>%
     add_step(step_push_deploy(path = "_site", branch = "gh-pages"))
 }
