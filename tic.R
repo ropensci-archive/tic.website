@@ -5,7 +5,7 @@ get_stage("install") %>%
   add_step(step_run_code(remotes::install_deps(dependencies = TRUE)))
 
 get_stage("script") %>%
-  add_step(rmarkdown::render_site())
+  add_step(step_run_code(rmarkdown::render_site()))
 
 if (Sys.getenv("id_rsa") != "") {
   # pkgdown documentation can be built optionally. Other example criteria:
