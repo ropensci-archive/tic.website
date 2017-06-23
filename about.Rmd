@@ -2,4 +2,12 @@
 title: "About This Website"
 ---
 
+```{r setup, include = FALSE}
+library(tibble)
+```
+
 More about this website.
+
+```{r}
+as_tibble(iris)
+```
