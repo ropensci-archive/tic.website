@@ -1,6 +1,6 @@
 # tic.website
 
-[![Travis-CI Build Status](https://travis-ci.org/krlmlr/tic.website.svg?branch=master)](https://travis-ci.org/krlmlr/tic.website)
+[![Travis-CI Build Status](https://travis-ci.org/ropenscilabs/tic.website.svg?branch=master)](https://travis-ci.org/ropenscilabs/tic.website)
 
 A minimal example website created and uploaded by _tic_.
 _tic_ is an R package for CI-agnostic workflow definitions for various R projects. 
