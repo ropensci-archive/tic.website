@@ -1,7 +1,7 @@
 # tic.website
 
 [![Travis-CI Build Status](https://travis-ci.org/ropenscilabs/tic.website.svg?branch=master)](https://travis-ci.org/ropenscilabs/tic.website)
-[![Build status](https://ci.appveyor.com/api/projects/status/cl7mswr07x4xi2fu/branch/master?svg=true)](https://ci.appveyor.com/project/ropensci/tic-website/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/stsc7vkogh1v6w64?svg=true)](https://ci.appveyor.com/project/ropenscilabs/tic-website)
 [![Coverage Status](https://codecov.io/gh/ropenscilabs/tic.website/branch/master/graph/badge.svg)](https://codecov.io/github/ropenscilabs/tic.website?branch=master)
 
 A minimal example website created and uploaded by _tic_.
